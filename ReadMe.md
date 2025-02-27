@@ -1,15 +1,16 @@
+```
 +------------------------------------------------------------------------------+
                SDC - Self Decrypting Binary Generator
           Copyright (C) 2006 Claes M Nyberg <cmn@signedness.org>
 +------------------------------------------------------------------------------+
-
--=[ What is this
+```
+### -=[ What is this
 	The SDC program creates self decrypting binaries for common operating systems
 	and architectures. The target file is encrypted using Blowfish in Ciphertext
 	Feedback Mode (CFB) and appended to an executable which reads itself and
 	attempts to decrypt the appended data when it is run.
 
--=[ Building
+### -=[ Building
 	Running 'make' in the src directory will present a few options:
 ```
 	$ make
@@ -47,16 +48,16 @@
 
 	The presented targets does already exist as header files and are already included into the sdc binary.
 
--=[ ToDo
+### -=[ ToDo
 	* Add compression of the file before encryption to increase confusion.
 	* OpenBSD ARM support
 	* MacOSX Support
 
--=[ Bugs and Limitations
+### -=[ Bugs and Limitations
 	In order for the elf_offset() routine to work, the ELF file (selfdecrypt) 
 	should be stripped (I'm to lazy to calculate size of string table).
 
--=[ Example
+### -=[ Example
 ```
 	 ./sdc /etc/services
 	Encryption key:
