@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2024 Claes M Nyberg <cmn@signedness.org>
+ * Copyright (C) 2006 Claes M Nyberg <cmn@signedness.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
